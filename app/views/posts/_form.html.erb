@@ -25,6 +25,7 @@ border-radius: 6px; padding: 15px;">
           <%= post.errors.full_messages_for(:title).join(",") %>
         </p>
       <% end %>
+      <%= form.file_field :images, multiple: true %>
     </div>
 
     <div>

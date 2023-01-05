@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   end
 
   get 'home/about'
+  get 'posts/myposts'
   resources :posts
 
    root "posts#index"

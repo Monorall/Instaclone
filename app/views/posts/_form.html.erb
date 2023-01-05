@@ -14,6 +14,9 @@ border-radius: 6px; padding: 15px;">
         </p>
       <% end %>
     </div>
+    <div>
+      <%= form.text_field :user_id, type: "hidden", value: current_user.id %>
+    </div>
 
     <div>
       <% invalid = post.errors.include?(:description) %>

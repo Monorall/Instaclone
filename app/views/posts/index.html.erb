@@ -1,4 +1,8 @@
-<%= stylesheet_link_tag("post") %>
+<%#= stylesheet_link_tag("post") %>
+<%# if user_signed_in? %>
+  <%# current_user.follow_request.each do |request| %>
+    <%#= request.followrable.email %>
+  <%# end %>
 <p style="color: green"><%= notice %></p>
 <div id="posts" class="text-center">
   <% @posts.each do |post| %>

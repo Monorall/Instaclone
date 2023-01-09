@@ -83,6 +83,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.4.4, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v7.0.4, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, ruby-3.0.2-p107) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ransack (v3.2.1, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.6.1, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.2, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v3.0.1, ruby-3.0.2-p107) [gem]" level="application" />
@@ -123,6 +124,7 @@
         <option value="devise:controllers" />
         <option value="devise:install" />
         <option value="devise:views" />
+        <option value="followability:install" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
@@ -161,6 +163,7 @@
         <option value="devise:controllers" />
         <option value="devise:install" />
         <option value="devise:views" />
+        <option value="followability:install" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />

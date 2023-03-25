@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site was built using Ruby on Rails and allows users to register, create posts with images, like posts, and search for other users by their usernames.
 
-Things you may want to cover:
+# Installation
+To get started with this project, you'll need to have Ruby and Rails installed on your machine. You can download the latest version of Ruby from the official website, and then use the following command to install Rails:
+```
+gem install rails
+```
 
-* Ruby version
+Once you have Rails installed, clone this repository to your local machine:
+```
+git clone https://github.com/yourusername/yourproject.git
+```
 
-* System dependencies
+Then, navigate into the project directory:
+```
+cd yourproject
+```
 
-* Configuration
+Next, install the required dependencies:
+```
+bundle install
+```
 
-* Database creation
+Create the database and run the migrations:
+```
+rails db:create
+rails db:migrate
+```
 
-* Database initialization
+Finally, start the server:
+```
+rails server
+```
 
-* How to run the test suite
+You can now visit the site in your web browser at http://localhost:3000.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Usage
+To use the site, you'll need to register for an account. Once you've registered, you can create posts with images, like other users' posts, and search for other users by their usernames.

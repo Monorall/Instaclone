@@ -10,7 +10,7 @@ gem install rails
 
 Once you have Rails installed, clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Monorall/Instaclone
 ```
 
 Then, navigate into the project directory:
